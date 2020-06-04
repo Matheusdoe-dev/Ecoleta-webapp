@@ -5,6 +5,7 @@ import { FiLogIn } from "react-icons/fi";
 
 // components
 import Header from "../../components/Header/index";
+import Form from "../../components/Form/index";
 
 const CreatePoint = () => {
   return (
@@ -17,6 +18,8 @@ const CreatePoint = () => {
           <strong>Voltar para home</strong>
         </Link>
       </Header>
+
+      <Form />
     </CreatePointWrapper>
   );
 };
